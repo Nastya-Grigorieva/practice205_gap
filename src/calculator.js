@@ -13,7 +13,7 @@ function add(a, b) {
   
   function divide(a, b) {
     if (b === 0) {
-      throw new Error("Нельзя делить нa 0");
+      throw new Error("Нельзя делить на 0");
     }
     return a / b;
   }
